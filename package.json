@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/plouc/nivo"
+    "url": "git:///github.com/scooperics/nivo"
   },
   "author": {
     "name": "Raphaël Benitte",

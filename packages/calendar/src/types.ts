@@ -102,7 +102,7 @@ export type CalendarDayProps = {
     size: number
     color: string
     borderWidth: number
-    borderColor: string
+    borderColor: () => string
     isInteractive: boolean
     tooltip: React.FC<CalendarTooltipProps>
     formatValue: (value: number) => string

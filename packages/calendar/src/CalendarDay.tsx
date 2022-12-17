@@ -78,7 +78,7 @@ export const CalendarDay = memo(
                 height={size}
                 style={{
                     fill: color,
-                    strokeWidth: borderWidth,
+                    strokeWidth: borderWidth( ...data.data ),
                     stroke: borderColor,
                 }}
                 onMouseEnter={isInteractive ? handleMouseEnter : undefined}
